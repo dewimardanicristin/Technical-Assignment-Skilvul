@@ -1,0 +1,17 @@
+1. BEGIN
+
+2. STORE "n" as INT ANY VALUE
+
+3. FOR i=1 to i=n
+	
+	IF "n" MODULUS BY 3 Equals 0
+		DISPLAY "Fizz"
+	ELSE IF "n" MODULUS BY 5 Equals 0
+		DISPLAY "Buzz"
+	ELSE IF "n" MODULUS BY 3 Equals 0 AND "n" MODULUS BT=Y 5 Equals 0
+		DISPLAY "FizzBuzz"
+	ELSE
+		DISPLAY "i"
+
+
+4. END

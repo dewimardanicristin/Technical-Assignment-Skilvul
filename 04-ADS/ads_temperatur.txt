@@ -1,0 +1,28 @@
+
+1. BEGIN
+
+2. STORE "temperatur" as any value
+
+3. STORE "temperatur_unit" as any value
+
+4. STORE SUM = 0
+
+5. IF "temperatur_unit" Equals "Fahrenheit"
+
+ 	CALCULATE(temperatur - 32) * (5/9)
+
+ 	SET "SUM" WITH VALUE form calculation result
+
+   ELSE IF "temperartur_unit" Equals "Kelvin"
+
+	CALCULATE("temperatur - 273.15")
+	
+	SET "SUM" WITH VALUE form calculation result
+
+   ELSE IF "temperatur_unit" Equals "Celcius"
+	
+	SET "SUM" WITH VALUE form temperatur
+
+6. DISPLAY "SUM"
+
+7. STOP
