@@ -1,0 +1,17 @@
+nav{
+    background-color: lightskyblue;
+    
+}
+
+a{
+    font-weight: 400px;
+    font-family: sans-serif;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: gainsboro;
+}

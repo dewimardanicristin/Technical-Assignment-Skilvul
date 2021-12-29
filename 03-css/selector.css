@@ -1,0 +1,16 @@
+#nama-siswa{
+    background-color: gainsboro;
+}
+
+p:hover{
+    background-color: #E5E7EB !important;
+}
+
+p:last-child {
+    background-color: #F87171;
+}
+
+p:first-child {
+   background-color: #60A5FA;
+}
+
