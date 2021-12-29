@@ -1,0 +1,19 @@
+import styled from "styled-components";
+
+const FlexContainer = styled.div`
+    display : flex;
+    height : 100vh;
+    flex-wrap : wrap;
+    flex-direction: ${(props) =>  
+        props.direction || "row"
+    }   ;
+    justify-content: ${(props) => 
+        props.justify || "center"
+    };
+    align-items: ${(props)=>
+        props.align || "center"
+    };
+    padding : 50px;
+`;
+
+export default FlexContainer;
