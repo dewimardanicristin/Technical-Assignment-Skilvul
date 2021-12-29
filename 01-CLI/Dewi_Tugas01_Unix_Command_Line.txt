@@ -1,0 +1,19 @@
+Nama : Dewi Mardani C
+GRUP : Danone - 1
+
+1. mkdir Dewi
+2. - cd Dewi
+   - mkdir sekolah
+   - mkdir kerja
+3. - cd sekolah
+   - touch ijazah.txt
+   - nano ijazah.txt
+   - touch portofolio.txt
+   - nano portofolio.txt
+4. cd ..
+5. - cd kerja
+   - touch cv.txt
+   - nano cv.txt
+6.  mv /c/Users/LENOVO/Dewi/kerja/cv.txt /c/Users/LENOVO/Dewi/Sekolah
+
+
