@@ -1,0 +1,7 @@
+Apa itu localStorage?
+localStorage menyimpan informasi selama pengguna tidak menghapusnya.
+Apa itu cookies?
+ hanya cookie, yang didukung oleh browser yang lebih tua dan biasanya fallback untuk kerangka kerja yang digunakan yang disebutkan di atas
+Apa perbedaan antara localStorage dan sessionStorage?
+sessionStorage menyimpan informasi selama sesi berlangsung. Biasanya sampai pengguna menutup tab browser. sementara localStorage
+menyimpan informasi selama pengguna tidak menghapusnya.
